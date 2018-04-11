@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.tests.LoginToKhanAcademy">
+        <methods>
+          <include name="setUp"/>
+          <include name="ExtentReports3"/>
+          <include name="closureActivities"/>
+          <include name="blankLogin"/>
+          <include name="getResult"/>
+          <include name="loginWithFBCredentials"/>
+          <include name="loginWithAcademyCredentials"/>
+        </methods>
+      </class> <!-- com.tests.LoginToKhanAcademy -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
